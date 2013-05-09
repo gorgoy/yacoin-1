@@ -15,6 +15,15 @@ CONFIG += thread
 # Dependency library locations can be customized with:
 #    BOOST_INCLUDE_PATH, BOOST_LIB_PATH, BDB_INCLUDE_PATH,
 #    BDB_LIB_PATH, OPENSSL_INCLUDE_PATH and OPENSSL_LIB_PATH respectively
+BOOST_LIB_SUFFIX=-mgw46-mt-sd-1_52
+BOOST_INCLUDE_PATH=C:\deps\boost-1.52.0-mgw
+BOOST_LIB_PATH=C:\deps\boost-1.52.0-mgw\stage\lib
+BDB_INCLUDE_PATH=c:/deps/db-4.8.30.NC-mgw/build_unix
+BDB_LIB_PATH=c:/deps/db-4.8.30.NC-mgw/build_unix
+OPENSSL_INCLUDE_PATH=c:/deps/openssl-1.0.1c-mgw/include
+OPENSSL_LIB_PATH=c:/deps/openssl-1.0.1c-mgw
+MINIUPNPC_INCLUDE_PATH=c:/deps/miniupnpc-1.6.20120509-mgw
+MINIUPNPC_LIB_PATH=c:/deps/miniupnpc-1.6.20120509-mgw
 
 OBJECTS_DIR = build
 MOC_DIR = build
